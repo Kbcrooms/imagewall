@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 class Tile extends Component{
-  constructor(){
-    super();
-  }
+  //constructor(){
+  //  super();
+  //}
   handleOpenLightBox = () =>{
-    this.props.open(this.props.imageUrl);
+    this.props.handle(this.props.imageUrl);
   }
   render(){
     const styles = {

@@ -36,6 +36,21 @@
   position: relative;
   padding-top: 150px;
 }
+.lightbox{
+  position:fixed;
+  top:0;
+  height:100%;
+  width:100%;
+  background-color: rgba(0,0,0,.8);
+  z-index: 101;
+  text-align: center;
+
+}
+.lightbox img{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .tile{
   width: 24%;
   margin: .5%;
