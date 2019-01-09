@@ -18,7 +18,6 @@ class Page extends Component{
     this.handleVisibleLightBox();
   }
   handleVisibleLightBox = () =>{
-    console.log("Something!");
     this.setState({visibleBox:!this.state.visibleBox});
   }
   render(){

@@ -3,8 +3,6 @@ import React, {Component} from 'react';
 class LightBox extends Component{
   handleShowLightBox = () =>{
     this.props.handle();
-    console.log("Sometg!");
-
   }
   render(){
     return(
